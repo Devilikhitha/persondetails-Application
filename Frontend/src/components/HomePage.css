@@ -1,0 +1,106 @@
+/* .formcontainer {
+  background-image: url("data:image/jpeg;base64,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");
+  height: 100vh;
+  background-size: cover;
+} */
+
+
+
+
+
+
+.booking-form {
+    max-width: 400px;
+    margin-top: 0%;
+    margin: 2% auto;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formbtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formbtn:hover {
+    background-color: #45a049;
+  }
+  
+  .formbtn1 {
+    text-align: center;
+    justify-content: center; 
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40%
+  }
+
+
+
+  /* Add these styles to your CSS file or component */
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 25px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+.button-edit {
+  background-color: #4CAF50; /* Green */
+  margin-right: 10px;
+  border-radius: 8px;
+  padding: 8px;
+  
+}
+
+.button-delete {
+  background-color: #f44336; /* Red */
+  border-radius: 8px;
+  padding: 8px;
+  
+}
